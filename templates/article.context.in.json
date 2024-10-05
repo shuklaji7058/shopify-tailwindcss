@@ -8,14 +8,10 @@
 * ------------------------------------------------------------
 */
 {
-  "sections": {
-    "template": {
-      "type": "template-article",
-      "settings": {
-      }
-    }
+  "parent": "article.json",
+  "context": {
+    "market": "in"
   },
-  "order": [
-    "template"
-  ]
+  "sections": {
+  }
 }
