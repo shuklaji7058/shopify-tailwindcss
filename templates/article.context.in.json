@@ -8,23 +8,10 @@
 * ------------------------------------------------------------
 */
 {
-  "sections": {
-    "template": {
-      "type": "template-article",
-<<<<<<< HEAD
-      "blocks": {
-        "title": {
-          "type": "article_title"
-        }
-      },
-      "block_order": ["title"]
-=======
-      "settings": {
-      }
->>>>>>> 4eb380f9e6929388716dbb24b1f583e7a89dac06
-    }
+  "parent": "article.json",
+  "context": {
+    "market": "in"
   },
-  "order": [
-    "template"
-  ]
+  "sections": {
+  }
 }
